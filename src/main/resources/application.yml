@@ -1,4 +1,6 @@
 spring:
+  security:
+    enabled: false
   application:
     name: skv-cloud-api
   datasource:
