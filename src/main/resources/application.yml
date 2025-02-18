@@ -13,3 +13,18 @@ spring:
       ddl-auto: update
     show-sql: true
     database-platform: org.hibernate.dialect.MySQLDialect
+
+
+aws:
+  region: us-east-1
+  user:
+    accessKeyId: AKIAR7HWXXOSFYL3OW5G
+    secretAccessKey: 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
+  s3:
+    bucket: skv-aws-cloud-resources-s3
+  sqs:
+    queue: skv-aws-cloud-resources-sqs
+    url: https://sqs.us-east-1.amazonaws.com/135808924580/skv-aws-cloud-resources-sqs
+  xray:
+    enabled: true
+
